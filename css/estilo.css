@@ -51,6 +51,24 @@
     top: 50px;
   }
 
+  .card{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbb;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: flex;
+  }
+
+  .card-conteudo{
+    padding: 10px;
+  }
+
+  .card-conteudo span{
+    display: block;
+  }
+
 @media screen and (max-width: 900px) {
     .drawer{
         width: 80px;
