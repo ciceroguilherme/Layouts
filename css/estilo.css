@@ -23,6 +23,28 @@
     color: #f1f1f1;
 }
 
+.alerta {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .fechar {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .fechar:hover {
+    color: black;
+  }
+
 @media screen and (max-width: 650px) {
     .drawer{
         width: 80px;

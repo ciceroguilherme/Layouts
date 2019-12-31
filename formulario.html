@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!-- Skeleton -->
+    <link rel="stylesheet" href="Skeleton-2.0.4/css/normalize.css">
+    <link rel="stylesheet" href="Skeleton-2.0.4/css/skeleton.css">
+
+
+</head>
+
+<body>
+    <aside>
+        <nav class="drawer">
+            <a href="principal.html">
+                <i class="fas fa-bars"></i> Home
+            </a>
+            <a href="pesquisa.html">
+                <i class="fas fa-search"></i> Pesquisa
+            </a>
+            <a href="formulario.html">
+                <i class="fas fa-user"></i> Formulário
+            </a>
+            <a href="detalhe.html">
+                <i class="fas fa-cog"></i> Detalhe
+            </a>
+        </nav>
+    </aside>
+
+    <section>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="eight columns">
+                        <h4>Formulário</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="alerta">
+                            <span class="fechar" onclick="this.parentElement.style.display='none';">&times;</span>
+                            <strong>Atenção!</strong> Preencha os campos obrigatorios
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="six columns">
+                        <input class="u-full-width" type="text" placeholder="Nome">
+                    </div>
+
+                    <div class="six columns">
+                        <input class="u-full-width" type="text" placeholder="Sobrenome">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <input class="u-full-width" type="email" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="six columns">
+                        <input class="u-full-width" type="password" placeholder="Senha">
+                    </div>
+
+                    <div class="six columns">
+                        <input class="u-full-width" type="password" placeholder="Confirmar Senha">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <button>Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
