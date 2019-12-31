@@ -45,7 +45,13 @@
     color: black;
   }
 
-@media screen and (max-width: 650px) {
+  .conteudo{
+    position: relative;
+    left: 120px;
+    top: 50px;
+  }
+
+@media screen and (max-width: 900px) {
     .drawer{
         width: 80px;
         transition: 0.3s;
